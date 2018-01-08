@@ -36,7 +36,7 @@ public class ChangeCalculatorTest {
 
     @Test
     public void calculateChange_AllDenominations() {
-        final Map<Denomination, Integer> change = ChangeCalculator.calculateChange(222, 1000);
+        final Map<Denomination, Integer> change = ChangeCalculator.calculateChange(112, 1000);
         assertEquals(9, change.size());
         assertThat(change, IsMapContaining.hasEntry(Denomination.FIVE_HUNDRED, 1));
         assertThat(change, IsMapContaining.hasEntry(Denomination.TWO_HUNDRED, 1));
