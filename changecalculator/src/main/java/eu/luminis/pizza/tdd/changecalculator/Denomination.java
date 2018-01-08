@@ -2,8 +2,8 @@ package eu.luminis.pizza.tdd.changecalculator;
 
 public enum Denomination {
     FIVE_HUNDRED(500),
-    TWO_HUNDRED(200),
     HUNDRED(100),
+    TWO_HUNDRED(200),
     FIFTY(50),
     TWENTY(20),
     FIVE(5),
